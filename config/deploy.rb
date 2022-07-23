@@ -6,7 +6,7 @@ set :application, 'achieve'
 
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/TakeshiAono/aws-test2'
+set :repo_url, 'https://github.com/TakeshiAono/achieve'
 
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
